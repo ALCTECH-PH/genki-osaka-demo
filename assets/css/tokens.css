@@ -1,0 +1,116 @@
+/* =======================================================================
+   tokens.css — げんき大阪 デザイントークン
+   Phase 4 確定値。Phase 8 で output/code/genki-osaka/tokens.css に無改変コピー。
+   このファイルは Phase 7 完了（デザインフリーズ）まで以外は改変禁止。
+   ======================================================================= */
+
+:root {
+  /* ── 1. Color ────────────────────────────────────────── */
+  --color-primary:       #C96A1B;
+  --color-primary-dark:  #A85515;
+  --color-accent:        #E8820A;
+  --color-accent-dark:   #D07008;
+  --color-text:          #1C1C24;
+  --color-text-muted:    #6B6860;
+  --color-bg:            #FAF8F3;
+  --color-bg-subtle:     #F3F0E9;
+  --color-bg-dark:       #2D1F0E;
+  --color-border:        #E0D8CC;
+  --color-trust-green:   #3D7A4A;
+
+  /* ── 2. Spacing ──────────────────────────────────────── */
+  --space-xs:    20px;
+  --space-sm:    32px;
+  --space-md:    40px;
+  --space-lg:    48px;
+  --space-xl:    56px;
+  --space-2xl:   64px;
+  --space-3xl:   80px;
+
+  /* ── 3. Typography ───────────────────────────────────── */
+  --font-display: 'BIZ UDPGothic', 'M PLUS Rounded 1c', sans-serif;
+  --font-heading: 'M PLUS Rounded 1c', 'BIZ UDPGothic', sans-serif;
+  --font-en: 'Lato', sans-serif;
+
+  --text-xs:    1.2rem;
+  --text-sm:    1.4rem;
+  --text-base:  1.6rem;
+  --text-lg:    2.4rem;
+  --text-xl:    3.2rem;
+  --text-2xl:   4rem;
+  --text-3xl:   4.8rem;
+  --text-4xl:   5.6rem;
+  --text-5xl:   6.4rem;
+
+  --leading-tight:   1.3;
+  --leading-normal:  1.9;
+  --leading-relaxed: 2.0;
+
+  /* ── 4. Button ───────────────────────────────────────── */
+  --btn-radius:       48px;
+  --btn-padding-y:    12px;
+  --btn-padding-x:    28px;
+  --btn-font-size:    var(--text-base);
+  --btn-font-weight:  700;
+  --btn-transition:   background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+
+  /* ── 5. Card ─────────────────────────────────────────── */
+  --card-radius:       12px;
+  --card-padding:      var(--space-lg);
+  --card-shadow:       0 2px 8px rgba(0, 0, 0, 0.07);
+  --card-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.11);
+  --card-border:       1px solid var(--color-border);
+
+  /* ── 6. Section Width ────────────────────────────────── */
+  --section-max-width:    calc(1200px + 8%);
+  --section-padding-x:    var(--space-xl);
+  --section-padding-y:    var(--space-3xl);
+  --section-padding-y-sm: var(--space-2xl);
+
+  /* ── 7. Navigation ───────────────────────────────────── */
+  --nav-height: 72px;
+
+  /* ── 8. Form ─────────────────────────────────────────── */
+  --input-border:     1px solid var(--color-border);
+  --input-radius:     8px;
+  --input-padding:    10px 14px;
+  --input-focus-ring: 2px solid var(--color-primary);
+
+  /* ── 9. Motion ───────────────────────────────────────── */
+  --duration-fast:   0.2s;
+  --duration-base:   0.5s;
+  --duration-slow:   0.8s;
+  --ease-standard:   cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
+  --stagger-delay:   0.08s;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --text-sm:    12px;
+    --text-base:  14px;
+    --text-lg:    20px;
+    --text-xl:    24px;
+    --text-2xl:   32px;
+    --text-3xl:   40px;
+    --text-4xl:   48px;
+    --text-5xl:   56px;
+
+    --section-max-width: 100%;
+
+    --card-padding: var(--space-md);
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --section-padding-x: 1.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration:  0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
