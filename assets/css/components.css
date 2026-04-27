@@ -757,7 +757,7 @@
 .rep-content__quote {
   font-size: var(--text-2xl);
   font-family: var(--font-heading);
-  font-weight: 700;
+  font-weight: 800;
   color: var(--color-text);
   line-height: var(--leading-tight);
   margin-bottom: var(--space-lg);
@@ -1441,7 +1441,7 @@
 
 .strength-item__title {
   font-size: var(--text-xl);
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: var(--space-md);
 }
 

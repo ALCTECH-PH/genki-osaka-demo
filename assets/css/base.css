@@ -83,6 +83,10 @@ p:last-child { margin-bottom: 0; }
   background-color: var(--color-bg-subtle);
 }
 
+.section.pt-0 {
+  padding-top: 0;
+}
+
 /* ── Scroll Animation ────────────────────────────────── */
 [data-anim] {
   opacity: 0;
