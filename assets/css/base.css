@@ -29,13 +29,13 @@ body {
 /* ── Typography ──────────────────────────────────────── */
 h1, h2, h3 {
   font-family: var(--font-heading);
-  font-weight: 700;
+  font-weight: 800;
   line-height: var(--leading-tight);
   letter-spacing: 0.02em;
 }
 
 h4, h5, h6 {
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.5;
 }
 
@@ -83,6 +83,10 @@ p:last-child { margin-bottom: 0; }
   background-color: var(--color-bg-subtle);
 }
 
+.section.pt-0 {
+  padding-top: 0;
+}
+
 /* ── Scroll Animation ────────────────────────────────── */
 [data-anim] {
   opacity: 0;
@@ -121,8 +125,9 @@ p:last-child { margin-bottom: 0; }
 }
 
 .site-logo {
+  font-family: var(--font-heading);
   font-size: var(--text-lg);
-  font-weight: 700;
+  font-weight: 800;
   color: var(--color-primary);
   white-space: nowrap;
 }
@@ -491,8 +496,8 @@ p:last-child { margin-bottom: 0; }
 
 .section-heading__label {
   display: inline-block;
-  font-size: var(--text-base);
-  font-weight: 700;
+  font-size: var(--text-lg);
+  font-weight: 800;
   color: var(--color-primary);
   text-transform: uppercase;
   letter-spacing: 0.1em;

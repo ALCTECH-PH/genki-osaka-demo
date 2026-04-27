@@ -28,7 +28,7 @@
   --space-3xl:   80px;
 
   /* ── 3. Typography ───────────────────────────────────── */
-  --font-display: 'BIZ UDPGothic', 'M PLUS Rounded 1c', sans-serif;
+  --font-display: 'M PLUS Rounded 1c', 'BIZ UDPGothic', sans-serif;
   --font-heading: 'M PLUS Rounded 1c', 'BIZ UDPGothic', sans-serif;
   --font-en: 'Lato', sans-serif;
 
