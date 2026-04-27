@@ -1228,7 +1228,8 @@
   }
   .hero__label   { order: 1; width: 100%; }
   .hero__catch   { order: 2; width: 100%; font-size: var(--text-4xl); }
-  .hero__image   { order: 3; width: 100%; max-width: 427px; margin-inline: auto; margin-block: var(--space-xl); }
+  .hero__image   { order: 3; width: 100%; max-width: 427px; margin-inline: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;
+}
   .hero__sub     { order: 4; width: 100%; }
   .hero__actions { order: 5; width: 100%; }
   .hero__stats   { order: 6; width: 100%; }
